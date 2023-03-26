@@ -1,0 +1,112 @@
+html{
+    scroll-behavior: smooth;
+}
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+p,a,li,figcaption{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-color: #4f2c1d;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+header div{
+    width: auto;
+    height: 115px;
+    flex-grow: 1;
+}
+header div img{
+    width: auto;
+    height: 100%;
+}
+header nav menu{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+header nav menu li{
+    padding: 0px 10px;
+}
+header a{
+    color: #EC2227;
+}
+
+.masthead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #EC2227;
+}
+.masthead div:first-child{
+    width: auto;
+    height: 300px;
+    padding: 10px;
+}
+.masthead div img{
+    width: auto;
+    height: 100%;
+}
+.masthead div h1{
+    color: #f4f4f4;
+    font-size: 70px;
+    text-shadow: 4px 2px 4px rgba(0,0,0,.5);
+    letter-spacing: 0.05em;
+}
+.gradient{
+    height: 100px;
+    background-image: linear-gradient(#EC2227,#f4f4f4);
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+}
+.about div figure{
+    padding: 5px;
+    border: 1px solid #0e0e0e;
+    background: #D3D3D3;
+}
+
+.gradient2{
+    height: 100px;
+    background-image: linear-gradient(#f4f4f4,#4f2c1d);
+}
+footer{
+    background-color: #4f2c1d;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    padding: 10px;
+}
+footer div{
+    width: auto;
+    height: 200px;
+    flex-grow: 1;
+}
+footer div p,footer div h3{
+    color: #f4f4f4;
+}
+footer div:nth-child(2){
+    padding: 0px 10px;
+}
+footer div:first-child{
+    display: flex;
+    align-items: center;
+}
+footer div a{
+    width: auto;
+    height: 125px;
+}
+footer div img{
+    width: auto;
+    height: 100%;
+}
