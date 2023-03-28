@@ -36,6 +36,7 @@ header nav menu li{
 }
 header a{
     color: #EC2227;
+    text-decoration: none;
 }
 
 .masthead{
@@ -97,6 +98,12 @@ footer div p,footer div h3{
 }
 footer div:nth-child(2){
     padding: 0px 10px;
+}
+footer div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer div:first-child{
     display: flex;
